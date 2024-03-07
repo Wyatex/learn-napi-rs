@@ -37,7 +37,7 @@ switch (platform) {
           if (localFileExisted) {
             nativeBinding = require('./learn-napi-rs.android-arm64.node')
           } else {
-            nativeBinding = require('learn-napi-rs-android-arm64')
+            nativeBinding = require('@wyatex/learn-napi-rs-android-arm64')
           }
         } catch (e) {
           loadError = e
@@ -49,7 +49,7 @@ switch (platform) {
           if (localFileExisted) {
             nativeBinding = require('./learn-napi-rs.android-arm-eabi.node')
           } else {
-            nativeBinding = require('learn-napi-rs-android-arm-eabi')
+            nativeBinding = require('@wyatex/learn-napi-rs-android-arm-eabi')
           }
         } catch (e) {
           loadError = e
@@ -69,7 +69,7 @@ switch (platform) {
           if (localFileExisted) {
             nativeBinding = require('./learn-napi-rs.win32-x64-msvc.node')
           } else {
-            nativeBinding = require('learn-napi-rs-win32-x64-msvc')
+            nativeBinding = require('@wyatex/learn-napi-rs-win32-x64-msvc')
           }
         } catch (e) {
           loadError = e
@@ -83,7 +83,7 @@ switch (platform) {
           if (localFileExisted) {
             nativeBinding = require('./learn-napi-rs.win32-ia32-msvc.node')
           } else {
-            nativeBinding = require('learn-napi-rs-win32-ia32-msvc')
+            nativeBinding = require('@wyatex/learn-napi-rs-win32-ia32-msvc')
           }
         } catch (e) {
           loadError = e
@@ -97,7 +97,7 @@ switch (platform) {
           if (localFileExisted) {
             nativeBinding = require('./learn-napi-rs.win32-arm64-msvc.node')
           } else {
-            nativeBinding = require('learn-napi-rs-win32-arm64-msvc')
+            nativeBinding = require('@wyatex/learn-napi-rs-win32-arm64-msvc')
           }
         } catch (e) {
           loadError = e
@@ -113,7 +113,7 @@ switch (platform) {
       if (localFileExisted) {
         nativeBinding = require('./learn-napi-rs.darwin-universal.node')
       } else {
-        nativeBinding = require('learn-napi-rs-darwin-universal')
+        nativeBinding = require('@wyatex/learn-napi-rs-darwin-universal')
       }
       break
     } catch {}
@@ -124,7 +124,7 @@ switch (platform) {
           if (localFileExisted) {
             nativeBinding = require('./learn-napi-rs.darwin-x64.node')
           } else {
-            nativeBinding = require('learn-napi-rs-darwin-x64')
+            nativeBinding = require('@wyatex/learn-napi-rs-darwin-x64')
           }
         } catch (e) {
           loadError = e
@@ -138,7 +138,7 @@ switch (platform) {
           if (localFileExisted) {
             nativeBinding = require('./learn-napi-rs.darwin-arm64.node')
           } else {
-            nativeBinding = require('learn-napi-rs-darwin-arm64')
+            nativeBinding = require('@wyatex/learn-napi-rs-darwin-arm64')
           }
         } catch (e) {
           loadError = e
@@ -157,7 +157,7 @@ switch (platform) {
       if (localFileExisted) {
         nativeBinding = require('./learn-napi-rs.freebsd-x64.node')
       } else {
-        nativeBinding = require('learn-napi-rs-freebsd-x64')
+        nativeBinding = require('@wyatex/learn-napi-rs-freebsd-x64')
       }
     } catch (e) {
       loadError = e
@@ -174,7 +174,7 @@ switch (platform) {
             if (localFileExisted) {
               nativeBinding = require('./learn-napi-rs.linux-x64-musl.node')
             } else {
-              nativeBinding = require('learn-napi-rs-linux-x64-musl')
+              nativeBinding = require('@wyatex/learn-napi-rs-linux-x64-musl')
             }
           } catch (e) {
             loadError = e
@@ -187,7 +187,7 @@ switch (platform) {
             if (localFileExisted) {
               nativeBinding = require('./learn-napi-rs.linux-x64-gnu.node')
             } else {
-              nativeBinding = require('learn-napi-rs-linux-x64-gnu')
+              nativeBinding = require('@wyatex/learn-napi-rs-linux-x64-gnu')
             }
           } catch (e) {
             loadError = e
@@ -203,7 +203,7 @@ switch (platform) {
             if (localFileExisted) {
               nativeBinding = require('./learn-napi-rs.linux-arm64-musl.node')
             } else {
-              nativeBinding = require('learn-napi-rs-linux-arm64-musl')
+              nativeBinding = require('@wyatex/learn-napi-rs-linux-arm64-musl')
             }
           } catch (e) {
             loadError = e
@@ -216,7 +216,7 @@ switch (platform) {
             if (localFileExisted) {
               nativeBinding = require('./learn-napi-rs.linux-arm64-gnu.node')
             } else {
-              nativeBinding = require('learn-napi-rs-linux-arm64-gnu')
+              nativeBinding = require('@wyatex/learn-napi-rs-linux-arm64-gnu')
             }
           } catch (e) {
             loadError = e
@@ -231,7 +231,7 @@ switch (platform) {
           if (localFileExisted) {
             nativeBinding = require('./learn-napi-rs.linux-arm-gnueabihf.node')
           } else {
-            nativeBinding = require('learn-napi-rs-linux-arm-gnueabihf')
+            nativeBinding = require('@wyatex/learn-napi-rs-linux-arm-gnueabihf')
           }
         } catch (e) {
           loadError = e
@@ -246,7 +246,7 @@ switch (platform) {
             if (localFileExisted) {
               nativeBinding = require('./learn-napi-rs.linux-riscv64-musl.node')
             } else {
-              nativeBinding = require('learn-napi-rs-linux-riscv64-musl')
+              nativeBinding = require('@wyatex/learn-napi-rs-linux-riscv64-musl')
             }
           } catch (e) {
             loadError = e
@@ -259,7 +259,7 @@ switch (platform) {
             if (localFileExisted) {
               nativeBinding = require('./learn-napi-rs.linux-riscv64-gnu.node')
             } else {
-              nativeBinding = require('learn-napi-rs-linux-riscv64-gnu')
+              nativeBinding = require('@wyatex/learn-napi-rs-linux-riscv64-gnu')
             }
           } catch (e) {
             loadError = e
@@ -274,7 +274,7 @@ switch (platform) {
           if (localFileExisted) {
             nativeBinding = require('./learn-napi-rs.linux-s390x-gnu.node')
           } else {
-            nativeBinding = require('learn-napi-rs-linux-s390x-gnu')
+            nativeBinding = require('@wyatex/learn-napi-rs-linux-s390x-gnu')
           }
         } catch (e) {
           loadError = e
@@ -295,6 +295,20 @@ if (!nativeBinding) {
   throw new Error(`Failed to load native binding`)
 }
 
-const { sum } = nativeBinding
+const { aFunction, coolFunction, getUndefined, getNull, getEnv, sum, isGood, getBufferSum, readBuffer, keys, logStringField, createObj, DEFAULT_CONST, Animal, Kind } = nativeBinding
 
+module.exports.aFunction = aFunction
+module.exports.coolFunction = coolFunction
+module.exports.getUndefined = getUndefined
+module.exports.getNull = getNull
+module.exports.getEnv = getEnv
 module.exports.sum = sum
+module.exports.isGood = isGood
+module.exports.getBufferSum = getBufferSum
+module.exports.readBuffer = readBuffer
+module.exports.keys = keys
+module.exports.logStringField = logStringField
+module.exports.createObj = createObj
+module.exports.DEFAULT_CONST = DEFAULT_CONST
+module.exports.Animal = Animal
+module.exports.Kind = Kind

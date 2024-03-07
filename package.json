@@ -29,6 +29,7 @@
     "build:debug": "napi build --platform",
     "prepublishOnly": "napi prepublish -t npm",
     "test": "ava",
+    "test:watch": "ava --watch",
     "universal": "napi universal",
     "version": "napi version"
   },
